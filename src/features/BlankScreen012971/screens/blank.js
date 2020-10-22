@@ -25,17 +25,7 @@ export default class Blank extends React.Component {
 
   state = {}
 
-  render = () => (
-    <View>
-      <Image
-        source={{
-          uri:
-            "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/8_bifyJwo.jpg"
-        }}
-        style={styles.Image_2}
-      />
-    </View>
-  )
+  render = () => <View />
 }
 
 const styles = StyleSheet.create({
@@ -43,6 +33,8 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
-  Image_2: { width: 192 }
+  Image_2: { width: 192 },
+  View_1: {}
 })
